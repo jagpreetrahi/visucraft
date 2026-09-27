@@ -1,0 +1,20 @@
+.vscode
+
+#Python
+backend/.env/
+backend/.venv
+backend/__pycache__/
+**/__pycache__/
+*.pyc 
+backend/.env
+backend/storage/assets/*
+!backend/storage/assets/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
